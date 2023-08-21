@@ -1,0 +1,39 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Override default link color */
+a {
+  color: #2e86de;
+  text-decoration: none;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Improve readability */
+p {
+  line-height: 1.6;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #2e86de;
+  border-color: #2e86de;
+}
+
+.btn-primary:hover {
+  background-color: #1a68c9;
+  border-color: #1a68c9;
+}
